@@ -1,0 +1,23 @@
+.carousel-about{
+    background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../images/carousel-1.jpg);
+    height: 251px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-carousel-ul{
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 11px;
+    color: #FEA116 !important;
+
+}
+.booking-section{
+    margin-top: -79px;
+    z-index: 1;
+    position: relative;
+}
+  
+  

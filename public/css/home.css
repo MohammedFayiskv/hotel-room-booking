@@ -1,0 +1,329 @@
+.font-700-sans{font-family: "Montserrat", sans-serif; 
+     font-weight: 700; 
+    line-height: 1.2;
+}
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 43, .7);
+    z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+.booking-input{
+
+    position: relative;
+    margin-top: -60px;
+    z-index: 1;
+}
+.btn-primary:active{
+    background-color:  #FEA116 ;
+    border-color: #FEA116 ;
+    box-shadow: #FEA116;
+
+}
+.btn-primary:focus{
+    background-color:  #FEA116 ;
+    border-color: #FEA116 ;
+    box-shadow: #FEA116;
+
+}
+.h6{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.about-section-p{
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    padding-top: 0px;
+}
+.about-section-h2{
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+}
+
+/* .counter {
+    animation-duration: 2s;
+    animation-delay: 2s;
+  } */
+
+  .card-small-rate{
+
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    position: absolute;
+    top: 46%;   
+    left: 6%;
+    font-size: 15px;
+    color: white;
+    background: #FEA116;
+  }
+  .card-p-tag{
+
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565 !important;
+
+  }
+  .service-item{
+    text-decoration: none;
+
+  }
+
+  .service-item .card i  {
+    color: #FEA116;
+  }
+
+  /* .service-item .card i:hover {
+    color: #ffff;
+  } */
+
+.text-card:hover{
+background-color: #FEA116 ;
+  }
+
+  .text-card:hover i,
+  .text-card:hover h5,
+  .text-card:hover p  {
+    color: #fff !important; /* white color */
+  }
+  .text-card i,
+  .text-card h5,
+  .text-card .card-p-tag {
+    color: #fff; /* white color */
+    transition: color 0.3s ease;
+  }
+
+  /* ** Testimonial ** */
+ .testimonial {
+  background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../images/carousel-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonial-carousel {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.testimonial-carousel .testimonial-item {
+  padding: 30px;
+}
+
+.testimonial-carousel .owl-nav {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: calc(50% - 20px);
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #FEA116 ;;
+  border-radius: 2px;
+  font-size: 18px;
+  transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+  color: #FEA116 ;
+  background: #FFFFFF;
+} 
+
+.full-width-image-cover {
+  width: 100%;
+  height: 100%; /* Fill the container */
+  object-fit: cover; /* Ensure the image covers the full container */
+}
+
+
+
+
+  /* Social Media Icons Styling */
+.social-media-icons {
+  position: absolute;
+   top: 59%; /* Adjust based on your design */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: flex;
+  gap: 10px; /* Space between icons */
+}
+@media only screen and (max-width: 1200px) {
+  .social-media-icons {
+    top: 54%; /* Adjust as needed */
+  }
+  .card-small-rate{
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .social-media-icons {
+    top: 66%; /* Adjust as needed */
+  }
+
+  .card-small-rate{
+    top: 44%;
+  }
+
+  .email-headding{
+    font-size: 1.2rem;
+  }
+  .explore-more{
+    padding: 12px 15px !important;
+  }
+}
+@media (min-width: 767px) and (max-width: 890px) {
+  .img-dark{
+    padding: 17px !important;
+  }
+}
+
+
+
+/* Adjust the positioning for smaller screens */
+@media only screen and (max-width: 768px) {
+  .social-media-icons {
+    top: 75%; /* Adjust as needed */
+  }
+
+  .card-small-rate{
+    top: 57%;
+  }
+
+  .carousel-captions-second-div{
+    margin-bottom: 84px;
+
+  }
+
+  .explore-more{
+    padding: 10px 7px !important;
+    
+  }
+  
+}
+
+
+@media only screen and (max-width: 576px) {
+  .card-small-rate{
+    top: 59%;
+  }
+}
+@media only screen and (max-width:543px) {
+  .card-small-rate{
+    top: 57%;
+    padding: 2px 9px !important;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .card-small-rate{
+    top: 56%;
+    padding: 2px 9px !important;
+  }
+}
+
+
+@media only screen and (max-width: 484px) {
+  .social-media-icons {
+    top: 55%; /* Adjust as needed */
+  }
+
+  .card-small-rate{
+    top: 54%;
+    padding: 2px 9px !important;
+  }
+.booking-container{
+  margin-top: 34px
+}
+.explore-more{
+  padding:  6px 9px !important;
+}
+
+  
+}
+
+@media only screen and (max-width: 481px) {
+  .social-media-icons {
+    top: 72%; /* Adjust as needed */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .col-lg-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .social-media-icons {
+    top:71%; /* Adjust as needed */
+  }
+
+  .card-small-rate{
+    top: 52%;
+    padding: 2px 9px !important;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 425px) {
+  .social-media-icons {
+    top: 69%; /* Adjust as needed */
+  }
+  .card-small-rate{
+    top: 51%;
+    padding: 2px 9px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+ 
+
+

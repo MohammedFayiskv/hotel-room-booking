@@ -1,0 +1,28 @@
+.rooms-tab li a{
+    color: #FEA116;
+    margin-right: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 200;
+    
+   
+}
+
+/* .rooms-tab li a:visited {
+    color: green;
+  } */
+.rooms-tab{
+/* border-bottom: 1px solid #212529; */
+ /* border-bottom:none; */
+ border-bottom: 1px solid #212529;
+ max-width: 663px;
+    padding-bottom: 10px;
+}
+
+.rooms-tab li{
+    margin-bottom: 10px;
+}
+/* .rooms-tab li a:active {
+    border-bottom: 1px solid #212529;
+  } */

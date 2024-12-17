@@ -1,0 +1,182 @@
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: ; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+
+/* *{
+    color: black;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+
+} */
+i:hover{
+    cursor: pointer;
+}
+.main-li{
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Heebo", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+}
+.main-li:hover{
+    color: #fea116;
+}
+.main-li.clicked {
+    color: #fea116;
+  }
+
+.header-nav{
+background-color:#0f172b ;
+}
+.header-nav{
+    background-color:#0f172b ;
+    }
+.brand-name{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    font-size: 28px;
+    color:#FEA116 
+    }
+    .brand-name:hover{
+        color:#FEA116 
+    }
+.icon-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+    .icon-section i{
+        color:#FEA116;
+        font-size: 24px
+    }
+    .dropdown-menu li .a{
+        color: #0000 !important;
+
+    }
+    .dropdown-menu li a:active {
+        background-color: #FEA116;
+      }
+    .page-dropdown.clicked{
+        background-color: #FEA116;
+    }
+
+    .search-container {
+        position: relative;
+    }
+
+    .search-box {
+        display: none; /* Initially hidden */
+        position: absolute;
+        right: -8px; /* Align to the right */
+        top: 50%;
+        transform: translateY(-50%);
+        transition: width 0.3s ease, opacity 0.3s ease;
+        width: 200px; /* Width of the search box */
+    }
+
+    .search-box.open {
+        display: block; /* Show when open */
+        width: 250px; /* Final width */
+        opacity: 1;
+    }
+
+    .search-button {
+        cursor: pointer;
+    }
+    .toggle-button{
+        background-color: #fea116;
+        opacity: 73%;
+    }
+
+
+ /* Use a media query to add a break point at 800px: */
+ @media screen and (max-width: 959px) {
+  .icon-section {
+    width: 10%; 
+  } 
+}
